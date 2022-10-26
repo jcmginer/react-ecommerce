@@ -42,7 +42,7 @@ const Products = () => {
                         </div>
                         <div class="why-text">
                             <h4>Lorem ipsum dolor sit amet</h4>
-                            <h5> $7.79</h5>
+                            <h5> $57.79</h5>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Products = () => {
                         </div>
                         <div class="why-text">
                             <h4>Lorem ipsum dolor sit amet</h4>
-                            <h5> $9.79</h5>
+                            <h5> $59.79</h5>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const Products = () => {
                         </div>
                         <div class="why-text">
                             <h4>Lorem ipsum dolor sit amet</h4>
-                            <h5> $10.79</h5>
+                            <h5> $61.79</h5>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ const Products = () => {
                         </div>
                         <div class="why-text">
                             <h4>Lorem ipsum dolor sit amet</h4>
-                            <h5> $15.79</h5>
+                            <h5> $59.79</h5>
                         </div>
                     </div>
                 </div>
