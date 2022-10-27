@@ -32,7 +32,7 @@ const Products = ({ name, price, img }) => {
 									<div className="type-lb">
 										<p className="sale">Sale</p>
 									</div>
-									<img src={ productImg } className="img-fluid" alt="PRO01" />
+									<img src={productImg} className="img-fluid" alt="PRO01" />
 									<div className="mask-icon">
 										<ul>
 											<li><a href="./" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
@@ -43,8 +43,8 @@ const Products = ({ name, price, img }) => {
 									</div>
 								</div>
 								<div className="why-text">
-									<h4> { name } </h4>
-									<h5> { price } </h5>
+									<h4> {name} </h4>
+									<h5> {price} </h5>
 								</div>
 							</div>
 						</div>
