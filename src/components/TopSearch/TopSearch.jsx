@@ -1,5 +1,6 @@
 const TopSearch = () => {
   return (
+    <>
       <div className="top-search">
         <div className="container">
           <div className="input-group">
@@ -9,6 +10,7 @@ const TopSearch = () => {
           </div>
         </div>
       </div>
+    </>
   )
 }
 
