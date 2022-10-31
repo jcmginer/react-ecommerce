@@ -17,6 +17,6 @@ export const CardsInfo = [
   {
     name: 'Moss BP',
     price: '49,99$',
-    img: '03'
+    img: '04'
   }
 ]
