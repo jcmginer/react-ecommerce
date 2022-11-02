@@ -1,7 +1,6 @@
 import './App.css';
-import db from './assets/db/db';
 import Footer from './components/Footer/Footer';
-import Products from './components/Products/Products';
+import ProductContainer from './components/ProductContainer/ProductContainer';
 import TopNav from './components/TopNav/TopNav';
 import TopSearch from './components/TopSearch/TopSearch';
 
@@ -10,7 +9,7 @@ function App() {
     <>
     <TopNav />
     <TopSearch />
-    <Products />
+    <ProductContainer />
     <Footer />
     </>
   );
