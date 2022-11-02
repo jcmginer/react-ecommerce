@@ -9,11 +9,13 @@ const ProductContainer = () => {
       <div className="products-box">
         <div className="container">
           <TopMain />
+          <div className="row special-list">
 
-          {CardsInfo && CardsInfo.map((card) => {
-            return <Products key={card.img} name={card.name} price={card.price} img={card.img} />;
-          })}
+            {CardsInfo && CardsInfo.map((card) => {
+              return <Products key={card.img} name={card.name} price={card.price} img={card.img} />;
+            })}
 
+          </div>
         </div>
       </div>
     </>
