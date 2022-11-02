@@ -1,16 +1,11 @@
+import TopLogo from "../TopLogo/TopLogo";
+
 const TopNav = () => {
     return (
         <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
             <div className="container">
-                {/* Start Header Navigation */}
-                <div className="navbar-header">
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-                    <i className="fa fa-bars"></i>
-                </button>
-                    <a className="navbar-brand" href="index.html"><img src="images/logo.png" className="logo" alt=""/></a>
-                </div>
-                {/* End Header Navigation */}
+                <TopLogo />
 
                 {/* Collect the nav links, forms, and other content for toggling */}
                 <div className="collapse navbar-collapse" id="navbar-menu">
