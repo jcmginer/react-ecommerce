@@ -1,16 +1,12 @@
 import './App.css';
-import Footer from './components/Footer/Footer';
-import ProductContainer from './components/ProductContainer/ProductContainer';
-import TopNav from './components/TopNav/TopNav';
-import TopSearch from './components/TopSearch/TopSearch';
-
+import { CartProvider } from './components/Context/CartContext';
+import Home from './components/Home/Home';
 function App() {
   return (
     <>
-    <TopNav />
-    <TopSearch />
-    <ProductContainer />
-    <Footer />
+      <CartProvider>
+        <Home />
+      </CartProvider>
     </>
   );
 }
