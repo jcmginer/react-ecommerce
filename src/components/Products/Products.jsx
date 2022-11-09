@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { ProductsInfo } from '../../assets/db/db';
 import { CartContext } from '../Context/CartContext';
-import styles from './products.css';
+import'./products.css';
 
 
 const Products = () => {
@@ -9,13 +9,16 @@ const Products = () => {
 
 	return (
 		<>
-			<div className={styles.productsContainer}>
+			<div className="productsContainer">
 				{ProductsInfo.map((product, i) => (
-					<div key={i} className={styles.product}>
+					<div key={i} className="product">
 						<img src={product.img} alt={product.name} />
-						<div>
+						<div className='contentTextProduct'>
 							<p>
-								{product.name} - ${product.price}
+								{product.name}
+							</p>
+							<p>
+							{product.price}$
 							</p>
 							<button onClick={() => addItemToCart(product)}>Add to Cart</button>
 						</div>

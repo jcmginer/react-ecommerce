@@ -44,11 +44,12 @@ export const CartProvider = ({ children }) => {
         cartItems.filter((productInCart) => productInCart.id !== product.id)
       );
     } else {
-      setCartItems((productInCart) => {
+      setCartItems(
+        cartItems.map((productInCart) => {
         if (productInCart.id === product.id) {
           return { ...inCart, amount: inCart.amount - 1 };
         } else return productInCart;
-      });
+      }));
     }
   };
 
