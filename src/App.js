@@ -1,12 +1,12 @@
+
 import './App.css';
-import { CartProvider } from './components/Context/CartContext';
-import Home from './components/Home/Home';
+import Router from './routes/Router';
+
+
 function App() {
   return (
     <>
-      <CartProvider>
-        <Home />
-      </CartProvider>
+      <Router />
     </>
   );
 }
