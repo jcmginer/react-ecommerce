@@ -28,5 +28,29 @@ export const ProductsInfo = [
     name: 'Moss BP',
     price: 49.00,
     img: Img04
+  },
+  {
+    id: 104,
+    name: 'Black BP',
+    price: 49.00,
+    img: Img01
+  },
+  {
+    id: 105,
+    name: 'Dune BP',
+    price: 62.00,
+    img: Img02
+  },
+  {
+    id: 106,
+    name: 'Black Camouflage BP',
+    price: 69.00,
+    img: Img03
+  },
+  {
+    id: 107,
+    name: 'Moss BP',
+    price: 49.00,
+    img: Img04
   }
 ]
