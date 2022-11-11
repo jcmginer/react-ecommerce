@@ -2,11 +2,12 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 0fr);
-  grid-row-gap: 20px;
+  grid-row-gap: 140px;
   grid-column-gap: 50px;
   justify-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 75px;
+  margin-bottom: 100px;
 }
 .contentTextProduct {
   display: flex;

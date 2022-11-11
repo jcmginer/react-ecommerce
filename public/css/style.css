@@ -1169,7 +1169,8 @@
 /*------------------------------------------------------------------ Footer Main -------------------------------------------------------------------*/
  .footer-main{
      padding: 70px 0px;
-     background: #202020;
+     background: #343a40;
+     width: 100%;
 }
  .footer-widget h4 {
      color: #ffffff;
@@ -1181,7 +1182,7 @@
      font-weight: 700;
 }
  .footer-widget h4::before {
-     border-bottom: 3px solid #d33b33;
+     border-bottom: 3px solid #0a9c00;
      content: "";
      height: 3px;
      width: 100%;
@@ -1212,8 +1213,8 @@
      line-height: 32px;
 }
  .footer-widget ul li a:hover {
-     color: #d33b33;
-     border-color: #d33b33;
+     color: #0a9c00;
+     border-color: #0a9c00;
 }
  .footer-link{
 }
@@ -1227,7 +1228,7 @@
      font-weight: 700;
 }
  .footer-link h4::before {
-     border-bottom: 3px solid #d33b33;
+     border-bottom: 3px solid #0a9c00;
      content: "";
      height: 3px;
      width: 100%;
@@ -1268,8 +1269,8 @@
      left: 5px;
 }
  .footer-link ul li a:hover {
-     color: #d33b33;
-     border-color: #d33b33;
+     color: #0a9c00;
+     border-color: #0a9c00;
      padding-left: 20px;
 }
  .footer-link-contact h4{
@@ -1282,7 +1283,7 @@
      font-weight: 700;
 }
  .footer-link-contact h4::before {
-     border-bottom: 3px solid #d33b33;
+     border-bottom: 3px solid #0a9c00;
      content: "";
      height: 3px;
      width: 100%;
@@ -1315,7 +1316,7 @@
      color: #cccccc;
 }
  .footer-link-contact ul li p a:hover{
-     color: #d33b33;
+     color: #0a9c00;
 }
 /*------------------------------------------------------------------ Copyright -------------------------------------------------------------------*/
  .footer-copyright{
