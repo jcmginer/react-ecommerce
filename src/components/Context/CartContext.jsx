@@ -46,13 +46,14 @@ export const CartProvider = ({ children }) => {
     } else {
       setCartItems(
         cartItems.map((productInCart) => {
-        if (productInCart.id === product.id) {
-          return { ...inCart, amount: inCart.amount - 1 };
-        } else return productInCart;
-      }));
+          if (productInCart.id === product.id) {
+            return { ...inCart, amount: inCart.amount - 1 };
+          } else return productInCart;
+        }));
     }
   };
 
+  console.log(cartItems);
   return (
     <CartContext.Provider value={{ cartItems, addItemToCart, deleteItemToCart }}>
       {children}
