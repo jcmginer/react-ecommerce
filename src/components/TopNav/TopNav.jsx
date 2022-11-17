@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Link } from 'react-router-dom'
 import TopLogo from '../TopLogo/TopLogo'
 
@@ -46,4 +46,4 @@ const TopNav = () => {
   )
 }
 
-export default TopNav
+export default memo(TopNav)
