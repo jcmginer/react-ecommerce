@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import { CartContext } from '../Context/CartContext';
+import Wishlist from '../Wishlist/Wishlist';
 import './products.css';
 
 
@@ -28,8 +29,8 @@ const Products = () => {
 	return (
 		<>
 			<div className="productsContainer">
-				{productsInfo.map((product, i) => (
-					<div key={i} className="product">
+				{productsInfo.map((product) => (
+					<div key={product.id} className="product">
 						<img src={product.img} alt={product.name} />
 						<div className='contentTextProduct'>
 							<p>
@@ -39,6 +40,7 @@ const Products = () => {
 								{product.price}$
 							</p>
 							<button onClick={() => addItemToCart(product)}>Add to Cart</button>
+							<Wishlist {...product} />
 						</div>
 					</div>
 				))}
