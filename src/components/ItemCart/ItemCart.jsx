@@ -27,7 +27,7 @@ const ItemCart = ({ item }) => {
           <div className="dataContainerRight">
             <div>{item.amount}</div>
             <p>{item.price}</p>
-            <p>Total: ${item.amount * item.price}</p>
+            <p>Total: {item.amount * item.price}€</p>
           </div>
         </div>
       </div>

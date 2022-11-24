@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
+/* import { Link } from 'react-router-dom'; */
 import { CartContext } from '../Context/CartContext';
 import Wishlist from '../Wishlist/Wishlist';
 import './products.css';
@@ -25,22 +26,29 @@ const Products = () => {
 
 	}, [url])
 
-
 	return (
 		<>
 			<div className="productsContainer">
 				{productsInfo.map((product) => (
 					<div key={product.id} className="product">
+						{/* <Link to={`/product/${product.id}`}> */}
 						<img src={product.img} alt={product.name} />
+						{/* </Link> */}
 						<div className='contentTextProduct'>
 							<p>
 								{product.name}
 							</p>
 							<p>
-								{product.price}$
+								{product.price}€
 							</p>
 							<button onClick={() => addItemToCart(product)}>Add to Cart</button>
-							<Wishlist {...product} />
+							<Wishlist
+								key={product.id}
+								id={product.id}
+								name={product.name}
+								price={product.price}
+								img={product.img}
+							/>
 						</div>
 					</div>
 				))}

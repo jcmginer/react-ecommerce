@@ -52,7 +52,7 @@ const Cart = () => {
               ))}
             </div>
           )}
-          <h2 className='titleCart'>Total: {total}$</h2>
+          <h2 className='titleCart'>Total: {total}€</h2>
 
         </div>
       )

@@ -1,19 +1,18 @@
-import Cart from '../Cart/Cart'
 import Footer from '../Footer/Footer'
-import Products from '../Products/Products'
 import TopNav from '../TopNav/TopNav'
-import styles from './home.css'
+import './home.css'
 
 const Home = () => {
   return (
-    <div className={styles.home}>
-      <>
-        <TopNav />
-        <Cart />
-        <Products />
-        <Footer />
-      </>
-    </div>
+
+    <>
+      <TopNav />
+
+      <img className='img-main' src='https://ik.imagekit.io/jcmginer/Products/hero-backpack-4__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669242368781' alt='img main top' />
+      <button className='btn buttonHome'>It's waiting for you</button>
+      <Footer />
+    </>
+
   )
 }
 
