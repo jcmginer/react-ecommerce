@@ -1,0 +1,16 @@
+.buttonWishlistContainer {
+  margin-top: 5px;
+  margin-bottom: 90px;
+  cursor: pointer;
+}
+
+.buttonWishlist {
+  background-color: #222;
+  color: azure;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
