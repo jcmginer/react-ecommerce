@@ -1,7 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react'
-import { CartContext } from '../Context/CartContext';
+import { CartContext } from './Context/CartContext';
 import ItemCart from '../ItemCart/ItemCart';
 import './cart.css'
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const [cartOpen, setCartOpen] = useState(false);
@@ -47,12 +48,13 @@ const Cart = () => {
             <p>Your cart is empty</p>
           ) : (
             <div className='dropdown'>
-              {cartItems.map((item, i) => (
-                <ItemCart key={i} item={item} />
+              {cartItems.map((item) => (
+                <ItemCart key={item.id} item={item} />
               ))}
             </div>
           )}
           <h2 className='titleCart'>Total: {total}€</h2>
+          <button className='btnBuy'> <Link to="/checkout">Buy Now</Link></button>
 
         </div>
       )

@@ -4,9 +4,8 @@ import './wishlist.css'
 
 
 
-const Wishlist = ({ id, name, price, img }) => {
+const BtnWishlist = ({ id, name, price, img }) => {
   const { dispatch } = useContext(WishlistContext)
-
   return (
     <>
 
@@ -21,4 +20,4 @@ const Wishlist = ({ id, name, price, img }) => {
   )
 }
 
-export default Wishlist
+export default BtnWishlist

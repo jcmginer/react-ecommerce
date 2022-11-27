@@ -1,5 +1,5 @@
-import Footer from '../Footer/Footer'
-import TopNav from '../TopNav/TopNav'
+import Footer from '../../components/Footer/Footer'
+import TopNav from '../../components/TopNav/TopNav'
 import './home.css'
 
 const Home = () => {

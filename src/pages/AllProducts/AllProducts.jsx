@@ -1,8 +1,9 @@
 import styles from './allProducts.css'
-import Footer from '../Footer/Footer'
-import Products from '../Products/Products'
-import TopNav from '../TopNav/TopNav'
-import Cart from '../Cart/Cart'
+
+import Products from '../../components/Products/Products'
+import TopNav from '../../components/TopNav/TopNav'
+import Cart from '../../components/Cart/Cart'
+import Footer from '../../components/Footer/Footer'
 
 const AllProducts = () => {
   return (

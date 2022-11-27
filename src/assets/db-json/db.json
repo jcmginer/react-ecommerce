@@ -48,5 +48,34 @@
       "price": 59.00,
       "img": "https://ik.imagekit.io/jcmginer/Products/backpack-grey-yellow.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669238554342"
     }
+  ],
+  "UsersInfo": [
+    {
+      "id": 100,
+      "userName": "Juan Carlos MG",
+      "email": "jc@gmail.com",
+      "phoneNumber": "987654321",
+      "password": "1234",
+      "address": "Fake Street, 123",
+      "postalCode": "00000"
+    },
+    {
+      "id": 101,
+      "userName": "Pau C",
+      "email": "pau@gmail.com",
+      "phoneNumber": "123456789",
+      "password": "1234",
+      "address": "Fake Street, 1234",
+      "postalCode": "00000"
+    },
+    {
+      "id": 102,
+      "userName": "Pepe M",
+      "email": "pepe@gmail.com",
+      "phoneNumber": "456789123",
+      "password": "1234",
+      "address": "Fake Street, 12345",
+      "postalCode": "00000"
+    }
   ]
 }

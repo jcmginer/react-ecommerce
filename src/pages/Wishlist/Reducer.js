@@ -26,28 +26,3 @@ const reducer = (state, action) => {
 
 
 export default reducer
-
-
-
-/* const reducer = (wishlistState, action) => {
-  console.log(wishlistState);
-  switch (action.type) {
-    case 'AddToWishlist':
-      const newProduct = action.payload;
-      const wishlistContainProduct = wishlistState.find((product) => product.id === newProduct.id)
-      console.log(wishlistState);
-
-      return wishlistContainProduct ?? {
-        ...wishlistState,
-        wishlist: wishlistState.map(product => product.id === newProduct.id ? product : product)
-      };
-      break;
-    default:
-      return wishlistState;
-  }
-
-}
-
-
-
-export default reducer  */

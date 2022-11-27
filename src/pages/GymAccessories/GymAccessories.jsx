@@ -1,5 +1,5 @@
 import React from 'react'
-import TopNav from '../TopNav/TopNav'
+import TopNav from '../../components/TopNav/TopNav'
 
 const GymAccessories = () => {
   return (

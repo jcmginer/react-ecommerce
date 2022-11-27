@@ -1,12 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { CartProvider } from '../components/Context/CartContext'
-import Home from '../components/Home/Home'
-import Checkout from '../components/Checkout/Checkout'
-import Wishlist from '../components/Wishlist/Wishlist'
-import GymAccessories from '../components/GymAccessories/GymAccessories'
-import WishlistProvider from '../components/Wishlist/WishlistProvider'
-import AllProducts from '../components/AllProducts/AllProducts'
+import { CartProvider } from '../components/Cart/Context/CartContext'
+import Home from '../pages/Home/Home'
+import GymAccessories from '../pages/GymAccessories/GymAccessories'
+import WishlistProvider from '../pages/Wishlist/WishlistProvider'
+import AllProducts from '../pages/AllProducts/AllProducts'
+import Checkout from '../pages/Checkout/Checkout'
+import Wishlist from '../pages/Wishlist/Wishlist'
+/* import { LoginPage } from '../auth/pages/LoginPage' */
+
 /* import InfoProducts from '../components/InfoProducts/InfoProducts' */
 
 const Router = () => {
@@ -21,6 +23,7 @@ const Router = () => {
               <Route path='/gym-accessories' element={<GymAccessories />} />
               <Route path='/wishlist' element={<Wishlist />} />
               <Route path='/checkout' element={<Checkout />} />
+              {/* <Route path="/*" element={<LoginPage />} /> */}
               {/* <Route path={`/product/${product.id}`} element={<InfoProducts />} /> */}
             </Routes>
           </WishlistProvider>

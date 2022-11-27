@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 /* import { Link } from 'react-router-dom'; */
-import { CartContext } from '../Context/CartContext';
-import Wishlist from '../Wishlist/Wishlist';
+import { CartContext } from '../Cart/Context/CartContext';
+import BtnWishlist from '../../pages/Wishlist/BtnWishlist';
 import './products.css';
 
 
@@ -42,7 +42,7 @@ const Products = () => {
 								{product.price}€
 							</p>
 							<button onClick={() => addItemToCart(product)}>Add to Cart</button>
-							<Wishlist
+							<BtnWishlist
 								key={product.id}
 								id={product.id}
 								name={product.name}
